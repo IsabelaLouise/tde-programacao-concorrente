@@ -1,0 +1,22 @@
+[Filosofo 4] pensando
+[Filosofo 0] pensando
+[Filosofo 2] pensando
+[Filosofo 1] pensando
+[Filosofo 3] pensando
+[Filosofo 1] com fome
+[Filosofo 1] pegou o garfo 0
+[Filosofo 4] com fome
+[Filosofo 4] pegou o garfo 3
+[Filosofo 3] com fome
+[Filosofo 3] pegou o garfo 2
+[Filosofo 0] com fome
+[Filosofo 0] pegou o garfo 4
+[Filosofo 2] com fome
+[Filosofo 2] pegou o garfo 1
+
+DEADLOCK DETECTADO: nenhum filosofo progride ha 3462 ms
+Filosofo 0: com fome (segurando o garfo 4, esperando o garfo 0)
+Filosofo 1: com fome (segurando o garfo 0, esperando o garfo 1)
+Filosofo 2: com fome (segurando o garfo 1, esperando o garfo 2)
+Filosofo 3: com fome (segurando o garfo 2, esperando o garfo 3)
+Filosofo 4: com fome (segurando o garfo 3, esperando o garfo 4)
